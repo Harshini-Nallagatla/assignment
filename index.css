@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.bg-color-container {
+  background-color: #ff9999;
+  height: 100vh;
+  background-size: cover;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  padding: 30px;
+  color: #000066;
+  overflow: scroll;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 49px;
+  margin-top: 15px;
+}
+
+.profile-heading {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+@media (max-width: 767px) {
+  .profile-container {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+  }
+}
+
+.profile-name-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.profile-name-heading {
+  font-size: 25px;
+}
+
+.profile-name-least-heading {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.profile {
+  color: #000066;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.profile-add {
+  display: flex;
+  flex-direction: column;
+  margin-left: 105px;
+  font-size: 9px;
+}
+
+hr {
+  width: 88%;
+  margin-left: 45px;
+  border: 1px solid #000066;
+}
+
+.work-icon-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  border: 3px solid #000066;
+  border-radius: 25px;
+  background-color: #ff9999;
+  margin-bottom: 5px;
+}
+
+.work-name-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.work-list {
+  display: flex;
+}
+
+.para {
+  font-size: 8px;
+  font-weight: 500;
+}
+
+.third-btn {
+  background-color: #ff9999;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color: #000066;
+  color: #000066;
+  height: 150px;
+  width: 200px;
+  flex-grow: 1;
+
+  margin-left: 45px;
+  border-width: 900;
+}
+
+.work-para {
+  font-size: 9px;
+  margin-right: 25px;
+}
+
+.span-para {
+  font-size: 9px;
+  margin-right: 25px;
+  font-weight: 300;
+}
+
+.skills-icon-container {
+  margin-right: 10px;
+}
+
+.skills {
+  color: #000066;
+  font-size: 25px;
+}
+
+.skill-name-container {
+  list-style-type: none;
+}
+
+.list {
+  display: flex;
+}
+
+.skill-ui-para {
+  margin-right: 55px;
+  font-size: 10px;
+}
+
+.bt {
+  height: 8px;
+  width: 8px;
+  background-color: #000066;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.skill-para {
+  font-size: 10px;
+}
+
+.skill-typo-para {
+  margin-right: 45px;
+
+  font-size: 10px;
+}
+
+.skill-video-para {
+  margin-right: 18px;
+  font-size: 10px;
+}
+
+.Skills-dots {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-print-para {
+  margin-right: 40px;
+  font-size: 10px;
+}
+
+.skill-para-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.line {
+  display: flex;
+}
+
+.line-class {
+  margin-right: 2px;
+  font-size: 5px;
+}
+
+.interests {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 25%;
+}
+
+.interests-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.icon-head {
+  font-size: 10px;
+}
+
+.buttons {
+  height: 50px;
+  width: 50px;
+  border: 3px solid #ff9999;
+  border-radius: 25px;
+  background-color: #000066;
+  margin-bottom: 5px;
+  color: #ff9999;
+}
